@@ -10,7 +10,7 @@ class Conversor extends StatefulWidget {
   bool esMaya;
 
   Conversor() {
-    numero = Random().nextInt(20);
+    numero = Random().nextInt(400);
     esMaya = Random().nextBool();
   }
 
