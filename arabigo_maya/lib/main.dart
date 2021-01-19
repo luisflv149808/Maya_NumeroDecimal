@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
      debugShowCheckedModeBanner: false,
-        title: 'Atinale Al Numero',
+        title: 'Conversor',
         theme: ThemeData(
           brightness: Brightness.light,
           primaryColor: Colors.purple[600],
