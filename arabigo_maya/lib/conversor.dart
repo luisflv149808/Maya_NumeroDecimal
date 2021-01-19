@@ -218,7 +218,7 @@ class _ConversorState extends State<Conversor> {
                         respuestasMayas[indiceMaya].forEach((x) =>
                             map[x] = !map.containsKey(x) ? (1) : (map[x] + 1));
                         if (map.containsKey(0) ||
-                            map.containsKey(5) && map[5] == 4) return;
+                            map.containsKey(5) && map[5] == 3) return;
                       }
                       setState(() {
                         respuestasMayas[indiceMaya].add(numero);
